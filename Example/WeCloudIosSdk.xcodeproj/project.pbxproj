@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046F69E42540358D00851269 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F69E32540358D00851269 /* 123.png */; };
 		3975C3547C11DD7F3C547809 /* Pods_WeCloudIosSdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D827B7CB2ACEFA7C2471FDE5 /* Pods_WeCloudIosSdk_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18E8A5967D0505349E36B5BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		258D81D280D9164CFA97A575 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		046F69E32540358D00851269 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		18E8A5967D0505349E36B5BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		258D81D280D9164CFA97A575 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		260DEB7F6DBB948E4CB43947 /* Pods-WeCloudIosSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeCloudIosSdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-WeCloudIosSdk_Tests/Pods-WeCloudIosSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WeCloudIosSdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCloudIosSdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +66,7 @@
 		8A48C9EECF49B2FF9FFED83B /* Pods-WeCloudIosSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeCloudIosSdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-WeCloudIosSdk_Example/Pods-WeCloudIosSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8CD2E404551A90D6CC621587 /* Pods-WeCloudIosSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeCloudIosSdk_Example.release.xcconfig"; path = "Target Support Files/Pods-WeCloudIosSdk_Example/Pods-WeCloudIosSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B2BE5704AF61F92E1FCAF9A /* Pods_WeCloudIosSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeCloudIosSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AADBB17334A977FC797BB141 /* WeCloudIosSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WeCloudIosSdk.podspec; path = ../WeCloudIosSdk.podspec; sourceTree = "<group>"; };
+		AADBB17334A977FC797BB141 /* WeCloudIosSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WeCloudIosSdk.podspec; path = ../WeCloudIosSdk.podspec; sourceTree = "<group>"; };
 		CD85EABD53B9E1135CAC2FE0 /* Pods-WeCloudIosSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeCloudIosSdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WeCloudIosSdk_Tests/Pods-WeCloudIosSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D827B7CB2ACEFA7C2471FDE5 /* Pods_WeCloudIosSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeCloudIosSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +105,6 @@
 				CD85EABD53B9E1135CAC2FE0 /* Pods-WeCloudIosSdk_Tests.debug.xcconfig */,
 				260DEB7F6DBB948E4CB43947 /* Pods-WeCloudIosSdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for WeCloudIosSdk */ = {
 			isa = PBXGroup;
 			children = (
+				046F69E32540358D00851269 /* 123.png */,
 				6003F59C195388D20070C39A /* WCAppDelegate.h */,
 				6003F59D195388D20070C39A /* WCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -282,6 +285,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				046F69E42540358D00851269 /* 123.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,10 +307,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WeCloudIosSdk_Example/Pods-WeCloudIosSdk_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/WeCloudIosSdk/WeCloudIosSdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeCloudIosSdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
