@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chenhw/WeCloudIosSdk'
+  s.homepage         = 'https://github.com/shengqianlong/WeCloudIosSdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shengqianlong' => 'shengqianlong@126.com' }
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'WeCloudIosSdk' => ['WeCloudIosSdk/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'AFNetworking', '~> 3.2'
 end
