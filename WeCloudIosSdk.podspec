@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WeCloudIosSdk'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'WeCloud.cn云存储上传接口封装'
 
 # This description is used to generate tags and improve search results.

@@ -9,7 +9,7 @@
 #import "WCUploadManager.h"
 #import <AFNetworking/AFNetworking.h>
 
-#define WeCloudHostUrl  @"https://api-wecloud.da300.com:10007/file/"
+#define WeCloudHostUrl  @"https://api.wecloud.cn:10007/file/"
 
 @interface WCUploadManager()
 
