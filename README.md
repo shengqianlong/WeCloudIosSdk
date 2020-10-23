@@ -1,4 +1,4 @@
-# WeCloudIosSdk
+# we-cloud-ios-sdk
 
 [![CI Status](https://img.shields.io/travis/chenhw/WeCloudIosSdk.svg?style=flat)](https://travis-ci.org/chenhw/WeCloudIosSdk)
 [![Version](https://img.shields.io/cocoapods/v/WeCloudIosSdk.svg?style=flat)](https://cocoapods.org/pods/WeCloudIosSdk)
