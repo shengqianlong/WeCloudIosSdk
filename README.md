@@ -8,6 +8,7 @@
 ## Example
 
 示例代码：
+```Objective-C
 #import <WCUploadManager.h>
 NSString *path = [[NSBundle mainBundle] pathForResource:@"123" ofType:@"png"];
 NSData *data = [NSData dataWithContentsOfFile:path];
@@ -18,9 +19,11 @@ __weak typeof(self) ws = self;
 } complete:^(NSInteger code, id  _Nullable responseObject) {
     NSLog(@"%@", responseObject);
 }];
+```
 从responseObject中获取上传的文件地址：
+```Objective-C
 [[WCUploadManager defaultManager] getFileUrlFromResponse:responseObject];
-
+```
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
