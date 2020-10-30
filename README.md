@@ -5,7 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/WeCloudIosSdk.svg?style=flat)](https://cocoapods.org/pods/WeCloudIosSdk)
 [![Platform](https://img.shields.io/cocoapods/p/WeCloudIosSdk.svg?style=flat)](https://cocoapods.org/pods/WeCloudIosSdk)
 
-## Example
+## 概览
+
+WeCloud.cn云存储SDK，实现了文件、图片上传的方法，及获取上传后地址的方法
+
+
+## 示例
 
 文件上传示例代码：
 ```Objective-C
@@ -26,10 +31,10 @@ __weak typeof(self) ws = self;
 ```
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## 环境要求
 ios 10.0以上sdk，AFNetworking 3.X
 
-## Installation
+## 安装方法
 
 WeCloudIosSdk is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -37,10 +42,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WeCloudIosSdk'
 ```
-
-## Author
-
-chenhw, 406399537@qq.com
 
 ## License
 
