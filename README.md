@@ -7,7 +7,7 @@
 
 ## Example
 
-示例代码：
+文件上传示例代码：
 ```Objective-C
 #import <WCUploadManager.h>
 NSString *path = [[NSBundle mainBundle] pathForResource:@"123" ofType:@"png"];
