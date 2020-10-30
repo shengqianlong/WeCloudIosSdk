@@ -1,25 +1,24 @@
 {
   "name": "WeCloudIosSdk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "WeCloud.cn云存储上传接口封装",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/chenhw/WeCloudIosSdk",
+  "homepage": "https://github.com/shengqianlong/we-cloud-ios-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "chenhw": "406399537@qq.com"
+    "shengqianlong": "shengqianlong@126.com"
   },
   "source": {
-    "git": "https://github.com/chenhw/WeCloudIosSdk.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/shengqianlong/we-cloud-ios-sdk.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "WeCloudIosSdk/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [

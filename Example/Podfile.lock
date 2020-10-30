@@ -19,7 +19,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - WeCloudIosSdk (0.1.0):
+  - WeCloudIosSdk (0.2.0):
     - AFNetworking (~> 3.2)
 
 DEPENDENCIES:
@@ -38,8 +38,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  WeCloudIosSdk: 9460848c3201fd9c39b655ade0f0ab47b715a57b
+  WeCloudIosSdk: 4a63ad99a164e19afe519d9e29ec39dd199c9ca1
 
 PODFILE CHECKSUM: 8f13bf9daf05e7d681050032c9617345f3056fa0
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
